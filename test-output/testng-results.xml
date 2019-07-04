@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="92" started-at="2019-07-04T18:04:12Z" finished-at="2019-07-04T18:04:12Z">
+    <groups>
+      <group name="qa">
+        <method signature="PrimeNumberCheckerTest.test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@32d992b2]" name="test" class="core.PrimeNumberCheckerTest"/>
+      </group> <!-- qa -->
+    </groups>
+    <test name="Default test" duration-ms="92" started-at="2019-07-04T18:04:12Z" finished-at="2019-07-04T18:04:12Z">
+      <class name="core.PrimeNumberCheckerTest">
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@32d992b2]" name="test" duration-ms="31" started-at="2019-07-04T18:04:12Z" data-provider="prime number" finished-at="2019-07-04T18:04:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@32d992b2]" name="test" duration-ms="7" started-at="2019-07-04T18:04:12Z" data-provider="prime number" finished-at="2019-07-04T18:04:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@32d992b2]" name="test" duration-ms="15" started-at="2019-07-04T18:04:12Z" data-provider="prime number" finished-at="2019-07-04T18:04:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- core.PrimeNumberCheckerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
